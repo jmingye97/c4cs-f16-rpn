@@ -34,8 +34,8 @@ def main():
 	logging.basicConfig(filename='out.log', filemode='w', level=logging.DEBUG)
 	while True:
 		result = calculate(input("rpn calc> "))
-		logging.info("Result: ", result)
-		print("Hello World!")
+		logging.info("Result: " + str(result))
+		helloWorld()
 
 if __name__ == '__main__':
 	main()
