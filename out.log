@@ -1,8 +1,0 @@
-DEBUG:root:[1]
-DEBUG:root:[1, 1]
-DEBUG:root:[2]
-INFO:root:Result: 2
-DEBUG:root:[2]
-DEBUG:root:[2, 2]
-DEBUG:root:[4]
-INFO:root:Result: 4
