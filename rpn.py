@@ -31,6 +31,7 @@ def calculate(myarg):
 def helloWorld():
 	print("Hello World!");
 def main():
+	logging.basicConfig(filename='out.log', filemode='w', level=logging.DEBUG)
 	while True:
 		result = calculate(input("rpn calc> "))
 		logging.info("Result: ", result)
